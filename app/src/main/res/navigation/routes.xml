@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.kosu.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/account"
+        android:name="com.example.kosu.SignIn"
+        android:label="activity_account"
+        tools:layout="@layout/activity_signin" />
+    <activity
+        android:id="@+id/basket"
+        android:name="com.example.kosu.Baset"
+        android:label="activity_basket"
+        tools:layout="@layout/activity_baset" />
+    <fragment
+        android:id="@+id/statementFragment"
+        android:name="com.example.kosu.StatementFragment"
+        android:label="fragment_statement"
+        tools:layout="@layout/fragment_statement" />
+    <fragment
+        android:id="@+id/designFragment2"
+        android:name="com.example.kosu.DesignFragment2"
+        android:label="fragment_design4"
+        tools:layout="@layout/fragment_design4" />
+    <fragment
+        android:id="@+id/designFragment1"
+        android:name="com.example.kosu.DesignFragment1"
+        android:label="fragment_design1"
+        tools:layout="@layout/fragment_design1" />
+    <fragment
+        android:id="@+id/designFragment3"
+        android:name="com.example.kosu.DesignFragment3"
+        android:label="fragment_design3"
+        tools:layout="@layout/fragment_design3" />
+    <fragment
+        android:id="@+id/designFragment4"
+        android:name="com.example.kosu.DesignFragment4"
+        android:label="fragment_design4"
+        tools:layout="@layout/fragment_design4" />
+</navigation>
